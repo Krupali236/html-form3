@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <style>
+        body {
+            background-color: skyblue;
+            font-size: 12px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .container {
+            margin-top: 10% !important;
+            width: 20%;
+            height: 50%;
+            background-color: white;
+            text-align: center;
+            margin: auto;
+        }
+
+        .blue {
+            border: 2px solid skyblue;
+            margin: 5px;
+            padding: 10px;
+            width: 250px;
+        }
+
+        a {
+            margin: 10px;
+            color: red;
+            margin-left: 70px;
+        }
+
+        .Login {
+            background-color: skyblue;
+            width: 100px;
+            height: 30px;
+            border: none;
+            color: white;
+            margin: 10px;
+        }
+
+        .Register {
+            background-color: skyblue;
+            width: 100px;
+            height: 30px;
+            border: none;
+            color: white;
+            margin: 20px;
+            margin-left: 30px;
+        }
+
+        h4,
+        p {
+            font-weight: bolder;
+        }
+
+        h1 {
+            padding: 20px;
+        }
+
+        .Twitter,
+        .Facebook,
+        .Google {
+            height: 30px;
+            width: 80px;
+            color: white;
+            border: none;
+        }
+
+        .Twitter {
+            background-color: aqua;
+        }
+
+        .Facebook {
+            background-color: blue;
+        }
+
+        .Google {
+            background-color: red;
+        }
+
+        img {
+            height: 20px;
+            width: 20px;
+            float: left;
+        }
+
+        button {
+            font-size: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Login</h1>
+        </div>
+        <div>
+            <input type="text" placeholder="&#128102;  User Name" id="name" class="blue">
+        </div>
+        <div>
+            <input type="password" id="password" placeholder="&#128273;  password" class="blue">
+        </div>
+        <div>
+            <span style="margin: 10px;">&#128272; Remember Me</span>
+            <span><a href="#">Forgot Password?</a></span>
+        </div>
+        <div>
+            <input type="submit" value="Log in" class="Login">
+        </div>
+        <div>
+            <h4 style="margin: 10px!important;">Login</h4>
+            <p style="margin: 10!important;">With your social media account</p>
+        </div>
+        <div>
+            <span><button class="Twitter"><img src="twitter.png"
+                        alt="Twitter">Twitter</button></span>
+            <span><button class="Facebook"><img src="facebook.png"
+                        alt="Facebook">Facebook</button></span>
+            <span><button class="Google"><img src="google.png" alt="Google">Google</button></span>
+        </div>
+        <div style="margin-top: 20px; font-weight: bold;">
+            <span>Don't have an Account? <a href="#">Register Now!</a></span>
+             
+        </div>
+        <div>
+            <input type="submit" value="REGISTER" class="Register">
+        </div>
+    </div>
+</body>
+
+</html>
